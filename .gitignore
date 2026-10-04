@@ -1,0 +1,43 @@
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Node
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Python / ML Environments
+backend/venv/
+backend/__pycache__/
+evaluation_suite/venv/
+evaluation_suite/kohya_ss/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Heavy ML Datasets & Outputs (Isolated from Git)
+evaluation_suite/dataset_clean*/
+evaluation_suite/dataset_protected*/
+evaluation_suite/lora_outputs/
+evaluation_suite/results/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Databases
+*.db
+backend/shield.db

@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+torchmetrics
+pytorch-fid
+Pillow
+scipy
+numpy

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+/* .\venv\Scripts\python.exe -m accelerate.commands.launch --num_cpu_threads_per_process=2 "./sd-scripts/train_network.py" --config_file="C:/Users/shubh/Antigravity/evaluation_suite/kohya_ss/training_workspace/model/config_lora-20260802-232611.toml" */
