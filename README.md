@@ -39,5 +39,3 @@ The web app will be available at `http://localhost:5173`.
 ## Notes
 - To view the API documentation, visit `http://localhost:8000/docs` while the backend is running.
 - The default styling applies a global dark mode as requested.
-
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128 --force-reinstall
